@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #eaf3ff;
+}
+
+h1 {
+  text-align: center;
+  color: #264859;
+  margin: 15px;
+  font-size: 45px;
+}
+
+.container-img {
+  width: 700px;
+  height: 250px;
+  margin: 20px  auto;  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cont1 {
+  background-color: #60d5fc;
+}
+
+#cont2 {
+  background-color: #d8a5c3;
+}
+
+#cont3 {
+  background-color: white;
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

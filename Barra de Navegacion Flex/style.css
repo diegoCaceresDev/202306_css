@@ -1,0 +1,40 @@
+.nav {
+  width: 800px;
+  height: 70px;
+  background-color: rgb(72, 72, 72);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: white;
+  margin-left: 20px;
+  font-weight: lighter;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+li, a {
+  color: white;
+  margin: 5px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(7, 202, 202);
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  margin-right: 10px;
+}

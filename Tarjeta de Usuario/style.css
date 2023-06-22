@@ -1,0 +1,39 @@
+.container {
+  margin: 100px;
+  width: 600px;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(177, 177, 177);
+}
+
+.main {
+  padding-left: 20px;
+  line-height: 1px;
+  padding-top: 33px;
+  font-size: 17px;
+}
+
+.head {
+  height: 80px;
+  background-color: rgb(1, 177, 177);
+}
+
+img {
+  width: 15px;
+  margin: -3px;
+
+}
+
+#profile {
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  left: 145px;
+  top: 150px;
+  border-radius: 50%;
+  border: 3px solid rgb(177, 177, 177);}
+
+a {
+  text-align: center;
+}
